@@ -1,0 +1,6 @@
+export enum State {
+  INSERTED = 'INSERTED',
+  STARTED = 'STARTED',
+  PROCESSED = 'PROCESSED',
+  FAILD = 'FAILD',
+}

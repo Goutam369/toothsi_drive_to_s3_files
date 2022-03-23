@@ -1,0 +1,7 @@
+export enum Category {
+  SCAN = 'SCAN',
+  PLAN = 'PLAN',
+  PROCEDURES = 'PROCEDURES',
+  PRODUCTION = 'PRODUCTION',
+  MONITORING = 'MONITORING',
+}
