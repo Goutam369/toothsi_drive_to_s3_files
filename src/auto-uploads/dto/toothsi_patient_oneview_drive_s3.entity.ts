@@ -34,7 +34,4 @@ export class toothsi_patient_oneview_drive_s3 {
 
   @Column()
   category_id: string;
-
-  @Column({ type: 'enum', enum: GeneralSelection })
-  Active: GeneralSelection;
 }

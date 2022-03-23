@@ -1,5 +1,6 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 import { State } from './state.enum';
+import { GeneralSelection } from './generalSelection.enum';
 
 @Entity()
 export class toothsi_drive_to_s3_files {
@@ -23,4 +24,7 @@ export class toothsi_drive_to_s3_files {
 
   @Column({ type: 'enum', enum: State, default: State.INSERTED })
   state: State;
+
+  @Column({ type: 'enum', enum: GeneralSelection })
+  Active: GeneralSelection;
 }
